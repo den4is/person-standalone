@@ -1,0 +1,6 @@
+<ng-container *ngIf="userData | async as user">
+    <p>Användaren heter: {{user?.username}}</p>
+    <p>Användaren är: {{user?.age}} år </p>
+</ng-container>
+
+<button (click)="mutateData();">Klicka för att mutera data</button>

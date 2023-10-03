@@ -1,0 +1,5 @@
+<form [formGroup]="userForm">
+    <input formControlName="username" placeholder="Mata in ditt användarnamn"/>
+    <input formControlName="age" placeholder="Mata in din ålder"/>
+</form>
+<button (click)="saveUserInput();" type="button">Hämta summering</button>
