@@ -11,6 +11,9 @@
       }
     }
   },
+  "cli": {
+    "analytics": false
+  },
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],
